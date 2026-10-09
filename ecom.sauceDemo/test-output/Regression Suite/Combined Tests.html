@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>TestNG:  Combined Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Combined Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 09 23:25:56 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>93 seconds (93954 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecom.swaglabs.Add_to_cart.Functional_testcases_ATC.fun1()'><b>fun1</b><br>Test class: ecom.swaglabs.Add_to_cart.Functional_testcases_ATC</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c</td></tr>
+<tr>
+<td title='ecom.swaglabs.Add_to_cart.Smoke_testcases_ATC.smk1()'><b>smk1</b><br>Test class: ecom.swaglabs.Add_to_cart.Smoke_testcases_ATC</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Add_to_cart.Smoke_testcases_ATC@4d1c00d0</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Functional_testcases_Login.fun1()'><b>fun1</b><br>Test class: ecom.swaglabs.Login.Functional_testcases_Login</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Login.Functional_testcases_Login@4e08711f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Product.Functionl_testcases_Product.fun1()'><b>fun1</b><br>Test class: ecom.swaglabs.Product.Functionl_testcases_Product</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Product.Functionl_testcases_Product@302552ec</td></tr>
+<tr>
+<td title='ecom.swaglabs.Add_to_cart.System_testcases_ATC.sys1()'><b>sys1</b><br>Test class: ecom.swaglabs.Add_to_cart.System_testcases_ATC</td>
+<td></td>
+<td>6</td>
+<td>ecom.swaglabs.Add_to_cart.System_testcases_ATC@4b2bac3f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Functional_testcases_Login.fun2()'><b>fun2</b><br>Test class: ecom.swaglabs.Login.Functional_testcases_Login</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Login.Functional_testcases_Login@4e08711f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Functional_testcases_Login.int1()'><b>int1</b><br>Test class: ecom.swaglabs.Login.Functional_testcases_Login</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Login.Functional_testcases_Login@4e08711f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Product.Functionl_testcases_Product.fun3()'><b>fun3</b><br>Test class: ecom.swaglabs.Product.Functionl_testcases_Product</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Product.Functionl_testcases_Product@302552ec</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_testcases_Login.fun_neg_4()'><b>fun_neg_4</b><br>Test class: ecom.swaglabs.Login.Negative_testcases_Login</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Login.Negative_testcases_Login@bcec361</td></tr>
+<tr>
+<td title='ecom.swaglabs.Add_to_cart.Negative_testcases_ATC.neg1()'><b>neg1</b><br>Test class: ecom.swaglabs.Add_to_cart.Negative_testcases_ATC</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Add_to_cart.Negative_testcases_ATC@79079097</td></tr>
+<tr>
+<td title='ecom.swaglabs.Add_to_cart.Negative_testcases_ATC.neg2()'><b>neg2</b><br>Test class: ecom.swaglabs.Add_to_cart.Negative_testcases_ATC</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Add_to_cart.Negative_testcases_ATC@79079097</td></tr>
+<tr>
+<td title='ecom.swaglabs.Product.System_testcases_Product.sys1()'><b>sys1</b><br>Test class: ecom.swaglabs.Product.System_testcases_Product</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Product.System_testcases_Product@40005471</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_testcases_Login.fun_neg_1()'><b>fun_neg_1</b><br>Test class: ecom.swaglabs.Login.Negative_testcases_Login</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Login.Negative_testcases_Login@bcec361</td></tr>
+<tr>
+<td title='ecom.swaglabs.Product.Integartion_testcases_Product.int2()'><b>int2</b><br>Test class: ecom.swaglabs.Product.Integartion_testcases_Product</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Product.Integartion_testcases_Product@3d285d7e</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_testcases_Login.fun_neg_3()'><b>fun_neg_3</b><br>Test class: ecom.swaglabs.Login.Negative_testcases_Login</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Login.Negative_testcases_Login@bcec361</td></tr>
+<tr>
+<td title='ecom.swaglabs.Add_to_cart.Functional_testcases_ATC.fun2()'><b>fun2</b><br>Test class: ecom.swaglabs.Add_to_cart.Functional_testcases_ATC</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Negative_testcases_Login.fun_neg_2()'><b>fun_neg_2</b><br>Test class: ecom.swaglabs.Login.Negative_testcases_Login</td>
+<td></td>
+<td>3</td>
+<td>ecom.swaglabs.Login.Negative_testcases_Login@bcec361</td></tr>
+<tr>
+<td title='ecom.swaglabs.Product.Functionl_testcases_Product.fun2()'><b>fun2</b><br>Test class: ecom.swaglabs.Product.Functionl_testcases_Product</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Product.Functionl_testcases_Product@302552ec</td></tr>
+<tr>
+<td title='ecom.swaglabs.Product.System_testcases_Product.sys2()'><b>sys2</b><br>Test class: ecom.swaglabs.Product.System_testcases_Product</td>
+<td></td>
+<td>9</td>
+<td>ecom.swaglabs.Product.System_testcases_Product@40005471</td></tr>
+<tr>
+<td title='ecom.swaglabs.Add_to_cart.System_testcases_ATC.sys2()'><b>sys2</b><br>Test class: ecom.swaglabs.Add_to_cart.System_testcases_ATC</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Add_to_cart.System_testcases_ATC@4b2bac3f</td></tr>
+<tr>
+<td title='ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC.int1()'><b>int1</b><br>Test class: ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC@3bf7ca37</td></tr>
+<tr>
+<td title='ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC.int2()'><b>int2</b><br>Test class: ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC@3bf7ca37</td></tr>
+<tr>
+<td title='ecom.swaglabs.Product.Integartion_testcases_Product.int1()'><b>int1</b><br>Test class: ecom.swaglabs.Product.Integartion_testcases_Product</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Product.Integartion_testcases_Product@3d285d7e</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Smoke_testcases_Login.login()'><b>login</b><br>Test class: ecom.swaglabs.Login.Smoke_testcases_Login</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Login.Smoke_testcases_Login@26794848</td></tr>
+</table><p>
+</body>
+</html>

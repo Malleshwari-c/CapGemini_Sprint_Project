@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-09T23:25:56 IST" name="Regression Suite" finished-at="2026-10-09T23:27:30 IST" duration-ms="93954">
+    <groups>
+      <group name="negative">
+        <method signature="Negative_testcases_ATC.neg1()[pri:0, instance:ecom.swaglabs.Add_to_cart.Negative_testcases_ATC@79079097]" name="neg1" class="ecom.swaglabs.Add_to_cart.Negative_testcases_ATC"/>
+        <method signature="Negative_testcases_ATC.neg2()[pri:0, instance:ecom.swaglabs.Add_to_cart.Negative_testcases_ATC@79079097]" name="neg2" class="ecom.swaglabs.Add_to_cart.Negative_testcases_ATC"/>
+        <method signature="Negative_testcases_Login.fun_neg_1()[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" name="fun_neg_1" class="ecom.swaglabs.Login.Negative_testcases_Login"/>
+        <method signature="Negative_testcases_Login.fun_neg_2()[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" name="fun_neg_2" class="ecom.swaglabs.Login.Negative_testcases_Login"/>
+        <method signature="Negative_testcases_Login.fun_neg_3()[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" name="fun_neg_3" class="ecom.swaglabs.Login.Negative_testcases_Login"/>
+        <method signature="Negative_testcases_Login.fun_neg_4()[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" name="fun_neg_4" class="ecom.swaglabs.Login.Negative_testcases_Login"/>
+      </group> <!-- negative -->
+      <group name="functional">
+        <method signature="Functional_testcases_ATC.fun1()[pri:0, instance:ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c]" name="fun1" class="ecom.swaglabs.Add_to_cart.Functional_testcases_ATC"/>
+        <method signature="Functional_testcases_ATC.fun2()[pri:0, instance:ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c]" name="fun2" class="ecom.swaglabs.Add_to_cart.Functional_testcases_ATC"/>
+        <method signature="Functional_testcases_Login.fun1()[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" name="fun1" class="ecom.swaglabs.Login.Functional_testcases_Login"/>
+        <method signature="Functional_testcases_Login.fun2()[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" name="fun2" class="ecom.swaglabs.Login.Functional_testcases_Login"/>
+        <method signature="Functionl_testcases_Product.fun1()[pri:0, instance:ecom.swaglabs.Product.Functionl_testcases_Product@302552ec]" name="fun1" class="ecom.swaglabs.Product.Functionl_testcases_Product"/>
+        <method signature="Functionl_testcases_Product.fun2()[pri:0, instance:ecom.swaglabs.Product.Functionl_testcases_Product@302552ec]" name="fun2" class="ecom.swaglabs.Product.Functionl_testcases_Product"/>
+        <method signature="Functionl_testcases_Product.fun3()[pri:0, instance:ecom.swaglabs.Product.Functionl_testcases_Product@302552ec]" name="fun3" class="ecom.swaglabs.Product.Functionl_testcases_Product"/>
+      </group> <!-- functional -->
+      <group name="system">
+        <method signature="System_testcases_ATC.sys1()[pri:0, instance:ecom.swaglabs.Add_to_cart.System_testcases_ATC@4b2bac3f]" name="sys1" class="ecom.swaglabs.Add_to_cart.System_testcases_ATC"/>
+        <method signature="System_testcases_ATC.sys2()[pri:0, instance:ecom.swaglabs.Add_to_cart.System_testcases_ATC@4b2bac3f]" name="sys2" class="ecom.swaglabs.Add_to_cart.System_testcases_ATC"/>
+        <method signature="System_testcases_Product.sys1()[pri:0, instance:ecom.swaglabs.Product.System_testcases_Product@40005471]" name="sys1" class="ecom.swaglabs.Product.System_testcases_Product"/>
+        <method signature="System_testcases_Product.sys2()[pri:0, instance:ecom.swaglabs.Product.System_testcases_Product@40005471]" name="sys2" class="ecom.swaglabs.Product.System_testcases_Product"/>
+      </group> <!-- system -->
+      <group name="integration">
+        <method signature="Integartion_testcases_ATC.int1()[pri:0, instance:ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC@3bf7ca37]" name="int1" class="ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC"/>
+        <method signature="Integartion_testcases_ATC.int2()[pri:0, instance:ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC@3bf7ca37]" name="int2" class="ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC"/>
+        <method signature="Functional_testcases_Login.int1()[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" name="int1" class="ecom.swaglabs.Login.Functional_testcases_Login"/>
+        <method signature="Integartion_testcases_Product.int1()[pri:0, instance:ecom.swaglabs.Product.Integartion_testcases_Product@3d285d7e]" name="int1" class="ecom.swaglabs.Product.Integartion_testcases_Product"/>
+        <method signature="Integartion_testcases_Product.int2()[pri:0, instance:ecom.swaglabs.Product.Integartion_testcases_Product@3d285d7e]" name="int2" class="ecom.swaglabs.Product.Integartion_testcases_Product"/>
+      </group> <!-- integration -->
+      <group name="smoke">
+        <method signature="Functional_testcases_ATC.fun2()[pri:0, instance:ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c]" name="fun2" class="ecom.swaglabs.Add_to_cart.Functional_testcases_ATC"/>
+        <method signature="Integartion_testcases_ATC.int2()[pri:0, instance:ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC@3bf7ca37]" name="int2" class="ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC"/>
+        <method signature="Negative_testcases_ATC.neg1()[pri:0, instance:ecom.swaglabs.Add_to_cart.Negative_testcases_ATC@79079097]" name="neg1" class="ecom.swaglabs.Add_to_cart.Negative_testcases_ATC"/>
+        <method signature="Negative_testcases_ATC.neg2()[pri:0, instance:ecom.swaglabs.Add_to_cart.Negative_testcases_ATC@79079097]" name="neg2" class="ecom.swaglabs.Add_to_cart.Negative_testcases_ATC"/>
+        <method signature="Smoke_testcases_ATC.smk1()[pri:0, instance:ecom.swaglabs.Add_to_cart.Smoke_testcases_ATC@4d1c00d0]" name="smk1" class="ecom.swaglabs.Add_to_cart.Smoke_testcases_ATC"/>
+        <method signature="System_testcases_ATC.sys2()[pri:0, instance:ecom.swaglabs.Add_to_cart.System_testcases_ATC@4b2bac3f]" name="sys2" class="ecom.swaglabs.Add_to_cart.System_testcases_ATC"/>
+        <method signature="Negative_testcases_Login.fun_neg_4()[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" name="fun_neg_4" class="ecom.swaglabs.Login.Negative_testcases_Login"/>
+        <method signature="Smoke_testcases_Login.login()[pri:0, instance:ecom.swaglabs.Login.Smoke_testcases_Login@26794848]" name="login" class="ecom.swaglabs.Login.Smoke_testcases_Login"/>
+        <method signature="System_testcases_Product.sys1()[pri:0, instance:ecom.swaglabs.Product.System_testcases_Product@40005471]" name="sys1" class="ecom.swaglabs.Product.System_testcases_Product"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-10-09T23:25:56 IST" name="Combined Tests" finished-at="2026-10-09T23:27:30 IST" duration-ms="93954">
+      <class name="ecom.swaglabs.Login.Functional_testcases_Login">
+        <test-method is-config="true" signature="Bs()[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" started-at="2026-10-09T23:25:56 IST" name="Bs" finished-at="2026-10-09T23:25:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bs -->
+        <test-method is-config="true" signature="Bt()[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" started-at="2026-10-09T23:25:56 IST" name="Bt" finished-at="2026-10-09T23:25:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bt -->
+        <test-method is-config="true" signature="Bc(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" started-at="2026-10-09T23:26:05 IST" name="Bc" finished-at="2026-10-09T23:26:05 IST" duration-ms="826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bc -->
+        <test-method is-config="true" signature="Bm(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" started-at="2026-10-09T23:26:05 IST" name="Bm" finished-at="2026-10-09T23:26:06 IST" duration-ms="741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="fun1()[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" started-at="2026-10-09T23:26:06 IST" name="fun1" finished-at="2026-10-09T23:26:07 IST" duration-ms="1166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun1 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" started-at="2026-10-09T23:26:07 IST" name="Am" finished-at="2026-10-09T23:26:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Bm(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" started-at="2026-10-09T23:26:07 IST" name="Bm" finished-at="2026-10-09T23:26:07 IST" duration-ms="42" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="fun2()[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" started-at="2026-10-09T23:26:07 IST" name="fun2" finished-at="2026-10-09T23:26:09 IST" duration-ms="1108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun2 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" started-at="2026-10-09T23:26:09 IST" name="Am" finished-at="2026-10-09T23:26:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Bm(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" started-at="2026-10-09T23:26:09 IST" name="Bm" finished-at="2026-10-09T23:26:09 IST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="int1()[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" started-at="2026-10-09T23:26:09 IST" name="int1" finished-at="2026-10-09T23:26:11 IST" duration-ms="2238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- int1 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" started-at="2026-10-09T23:26:11 IST" name="Am" finished-at="2026-10-09T23:26:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Ac()[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" started-at="2026-10-09T23:26:11 IST" name="Ac" finished-at="2026-10-09T23:26:11 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ac -->
+        <test-method is-config="true" signature="At()[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" started-at="2026-10-09T23:27:30 IST" name="At" finished-at="2026-10-09T23:27:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- At -->
+        <test-method is-config="true" signature="As()[pri:0, instance:ecom.swaglabs.Login.Functional_testcases_Login@4e08711f]" started-at="2026-10-09T23:27:30 IST" name="As" finished-at="2026-10-09T23:27:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- As -->
+      </class> <!-- ecom.swaglabs.Login.Functional_testcases_Login -->
+      <class name="ecom.swaglabs.Add_to_cart.Smoke_testcases_ATC">
+        <test-method is-config="true" signature="Bc(java.lang.String)[pri:0, instance:ecom.swaglabs.Add_to_cart.Smoke_testcases_ATC@4d1c00d0]" started-at="2026-10-09T23:27:10 IST" name="Bc" finished-at="2026-10-09T23:27:11 IST" duration-ms="691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bc -->
+        <test-method is-config="true" signature="Bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Add_to_cart.Smoke_testcases_ATC@4d1c00d0]" started-at="2026-10-09T23:27:11 IST" name="Bm" finished-at="2026-10-09T23:27:14 IST" duration-ms="2945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="smk1()[pri:0, instance:ecom.swaglabs.Add_to_cart.Smoke_testcases_ATC@4d1c00d0]" started-at="2026-10-09T23:27:14 IST" name="smk1" finished-at="2026-10-09T23:27:16 IST" duration-ms="1874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smk1 -->
+        <test-method is-config="true" signature="Ac()[pri:0, instance:ecom.swaglabs.Add_to_cart.Smoke_testcases_ATC@4d1c00d0]" started-at="2026-10-09T23:27:16 IST" name="Ac" finished-at="2026-10-09T23:27:16 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ac -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Add_to_cart.Smoke_testcases_ATC@4d1c00d0]" started-at="2026-10-09T23:27:16 IST" name="Am" finished-at="2026-10-09T23:27:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+      </class> <!-- ecom.swaglabs.Add_to_cart.Smoke_testcases_ATC -->
+      <class name="ecom.swaglabs.Product.Integartion_testcases_Product">
+        <test-method is-config="true" signature="Bc(java.lang.String)[pri:0, instance:ecom.swaglabs.Product.Integartion_testcases_Product@3d285d7e]" started-at="2026-10-09T23:26:36 IST" name="Bc" finished-at="2026-10-09T23:26:37 IST" duration-ms="729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bc -->
+        <test-method is-config="true" signature="Bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Product.Integartion_testcases_Product@3d285d7e]" started-at="2026-10-09T23:26:37 IST" name="Bm" finished-at="2026-10-09T23:26:40 IST" duration-ms="2934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="int1()[pri:0, instance:ecom.swaglabs.Product.Integartion_testcases_Product@3d285d7e]" started-at="2026-10-09T23:26:40 IST" name="int1" finished-at="2026-10-09T23:26:40 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- int1 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Product.Integartion_testcases_Product@3d285d7e]" started-at="2026-10-09T23:26:40 IST" name="Am" finished-at="2026-10-09T23:26:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Product.Integartion_testcases_Product@3d285d7e]" started-at="2026-10-09T23:26:40 IST" name="Bm" finished-at="2026-10-09T23:26:43 IST" duration-ms="2201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="int2()[pri:0, instance:ecom.swaglabs.Product.Integartion_testcases_Product@3d285d7e]" started-at="2026-10-09T23:26:43 IST" name="int2" finished-at="2026-10-09T23:26:43 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- int2 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Product.Integartion_testcases_Product@3d285d7e]" started-at="2026-10-09T23:26:43 IST" name="Am" finished-at="2026-10-09T23:26:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Ac()[pri:0, instance:ecom.swaglabs.Product.Integartion_testcases_Product@3d285d7e]" started-at="2026-10-09T23:26:43 IST" name="Ac" finished-at="2026-10-09T23:26:43 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ac -->
+      </class> <!-- ecom.swaglabs.Product.Integartion_testcases_Product -->
+      <class name="ecom.swaglabs.Add_to_cart.Functional_testcases_ATC">
+        <test-method is-config="true" signature="Bs()[pri:0, instance:ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c]" started-at="2026-10-09T23:25:56 IST" name="Bs" finished-at="2026-10-09T23:25:56 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bs -->
+        <test-method is-config="true" signature="Bt()[pri:0, instance:ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c]" started-at="2026-10-09T23:25:56 IST" name="Bt" finished-at="2026-10-09T23:25:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bt -->
+        <test-method is-config="true" signature="Bc(java.lang.String)[pri:0, instance:ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c]" started-at="2026-10-09T23:25:56 IST" name="Bc" finished-at="2026-10-09T23:25:59 IST" duration-ms="3046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bc -->
+        <test-method is-config="true" signature="Bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c]" started-at="2026-10-09T23:25:59 IST" name="Bm" finished-at="2026-10-09T23:26:02 IST" duration-ms="3181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="fun1()[pri:0, instance:ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c]" started-at="2026-10-09T23:26:02 IST" name="fun1" finished-at="2026-10-09T23:26:02 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun1 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c]" started-at="2026-10-09T23:26:02 IST" name="Am" finished-at="2026-10-09T23:26:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c]" started-at="2026-10-09T23:26:02 IST" name="Bm" finished-at="2026-10-09T23:26:04 IST" duration-ms="2258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="fun2()[pri:0, instance:ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c]" started-at="2026-10-09T23:26:04 IST" name="fun2" finished-at="2026-10-09T23:26:04 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun2 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c]" started-at="2026-10-09T23:26:04 IST" name="Am" finished-at="2026-10-09T23:26:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Ac()[pri:0, instance:ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c]" started-at="2026-10-09T23:26:04 IST" name="Ac" finished-at="2026-10-09T23:26:05 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ac -->
+        <test-method is-config="true" signature="At()[pri:0, instance:ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c]" started-at="2026-10-09T23:27:30 IST" name="At" finished-at="2026-10-09T23:27:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- At -->
+        <test-method is-config="true" signature="As()[pri:0, instance:ecom.swaglabs.Add_to_cart.Functional_testcases_ATC@15de0b3c]" started-at="2026-10-09T23:27:30 IST" name="As" finished-at="2026-10-09T23:27:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- As -->
+      </class> <!-- ecom.swaglabs.Add_to_cart.Functional_testcases_ATC -->
+      <class name="ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC">
+        <test-method is-config="true" signature="Bc(java.lang.String)[pri:0, instance:ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC@3bf7ca37]" started-at="2026-10-09T23:26:20 IST" name="Bc" finished-at="2026-10-09T23:26:21 IST" duration-ms="711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bc -->
+        <test-method is-config="true" signature="Bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC@3bf7ca37]" started-at="2026-10-09T23:26:21 IST" name="Bm" finished-at="2026-10-09T23:26:24 IST" duration-ms="2939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="int1()[pri:0, instance:ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC@3bf7ca37]" started-at="2026-10-09T23:26:24 IST" name="int1" finished-at="2026-10-09T23:26:24 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- int1 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC@3bf7ca37]" started-at="2026-10-09T23:26:24 IST" name="Am" finished-at="2026-10-09T23:26:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC@3bf7ca37]" started-at="2026-10-09T23:26:24 IST" name="Bm" finished-at="2026-10-09T23:26:26 IST" duration-ms="2212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="int2()[pri:0, instance:ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC@3bf7ca37]" started-at="2026-10-09T23:26:26 IST" name="int2" finished-at="2026-10-09T23:26:26 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- int2 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC@3bf7ca37]" started-at="2026-10-09T23:26:26 IST" name="Am" finished-at="2026-10-09T23:26:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Ac()[pri:0, instance:ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC@3bf7ca37]" started-at="2026-10-09T23:26:26 IST" name="Ac" finished-at="2026-10-09T23:26:26 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ac -->
+      </class> <!-- ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC -->
+      <class name="ecom.swaglabs.Login.Smoke_testcases_Login">
+        <test-method is-config="true" signature="Bc(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Smoke_testcases_Login@26794848]" started-at="2026-10-09T23:26:50 IST" name="Bc" finished-at="2026-10-09T23:26:50 IST" duration-ms="699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bc -->
+        <test-method is-config="true" signature="Bm(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Smoke_testcases_Login@26794848]" started-at="2026-10-09T23:26:50 IST" name="Bm" finished-at="2026-10-09T23:26:51 IST" duration-ms="638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="login()[pri:0, instance:ecom.swaglabs.Login.Smoke_testcases_Login@26794848]" started-at="2026-10-09T23:26:51 IST" name="login" finished-at="2026-10-09T23:26:53 IST" duration-ms="2290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Login.Smoke_testcases_Login@26794848]" started-at="2026-10-09T23:26:53 IST" name="Am" finished-at="2026-10-09T23:26:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Ac()[pri:0, instance:ecom.swaglabs.Login.Smoke_testcases_Login@26794848]" started-at="2026-10-09T23:26:53 IST" name="Ac" finished-at="2026-10-09T23:26:53 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ac -->
+      </class> <!-- ecom.swaglabs.Login.Smoke_testcases_Login -->
+      <class name="ecom.swaglabs.Product.Functionl_testcases_Product">
+        <test-method is-config="true" signature="Bc(java.lang.String)[pri:0, instance:ecom.swaglabs.Product.Functionl_testcases_Product@302552ec]" started-at="2026-10-09T23:26:11 IST" name="Bc" finished-at="2026-10-09T23:26:12 IST" duration-ms="779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bc -->
+        <test-method is-config="true" signature="Bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Product.Functionl_testcases_Product@302552ec]" started-at="2026-10-09T23:26:12 IST" name="Bm" finished-at="2026-10-09T23:26:15 IST" duration-ms="3010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="fun1()[pri:0, instance:ecom.swaglabs.Product.Functionl_testcases_Product@302552ec]" started-at="2026-10-09T23:26:15 IST" name="fun1" finished-at="2026-10-09T23:26:15 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun1 -->
+        <test-method is-config="true" signature="Bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Product.Functionl_testcases_Product@302552ec]" started-at="2026-10-09T23:26:15 IST" name="Bm" finished-at="2026-10-09T23:26:17 IST" duration-ms="2214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Product.Functionl_testcases_Product@302552ec]" started-at="2026-10-09T23:26:15 IST" name="Am" finished-at="2026-10-09T23:26:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method signature="fun2()[pri:0, instance:ecom.swaglabs.Product.Functionl_testcases_Product@302552ec]" started-at="2026-10-09T23:26:17 IST" name="fun2" finished-at="2026-10-09T23:26:17 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun2 -->
+        <test-method is-config="true" signature="Bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Product.Functionl_testcases_Product@302552ec]" started-at="2026-10-09T23:26:17 IST" name="Bm" finished-at="2026-10-09T23:26:19 IST" duration-ms="2214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Product.Functionl_testcases_Product@302552ec]" started-at="2026-10-09T23:26:17 IST" name="Am" finished-at="2026-10-09T23:26:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method signature="fun3()[pri:0, instance:ecom.swaglabs.Product.Functionl_testcases_Product@302552ec]" started-at="2026-10-09T23:26:19 IST" name="fun3" finished-at="2026-10-09T23:26:20 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun3 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Product.Functionl_testcases_Product@302552ec]" started-at="2026-10-09T23:26:20 IST" name="Am" finished-at="2026-10-09T23:26:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Ac()[pri:0, instance:ecom.swaglabs.Product.Functionl_testcases_Product@302552ec]" started-at="2026-10-09T23:26:20 IST" name="Ac" finished-at="2026-10-09T23:26:20 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ac -->
+      </class> <!-- ecom.swaglabs.Product.Functionl_testcases_Product -->
+      <class name="ecom.swaglabs.Add_to_cart.System_testcases_ATC">
+        <test-method is-config="true" signature="Bc(java.lang.String)[pri:0, instance:ecom.swaglabs.Add_to_cart.System_testcases_ATC@4b2bac3f]" started-at="2026-10-09T23:27:16 IST" name="Bc" finished-at="2026-10-09T23:27:17 IST" duration-ms="736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bc -->
+        <test-method is-config="true" signature="Bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Add_to_cart.System_testcases_ATC@4b2bac3f]" started-at="2026-10-09T23:27:17 IST" name="Bm" finished-at="2026-10-09T23:27:20 IST" duration-ms="3307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="sys1()[pri:0, instance:ecom.swaglabs.Add_to_cart.System_testcases_ATC@4b2bac3f]" started-at="2026-10-09T23:27:20 IST" name="sys1" finished-at="2026-10-09T23:27:27 IST" duration-ms="6545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sys1 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Add_to_cart.System_testcases_ATC@4b2bac3f]" started-at="2026-10-09T23:27:27 IST" name="Am" finished-at="2026-10-09T23:27:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Add_to_cart.System_testcases_ATC@4b2bac3f]" started-at="2026-10-09T23:27:27 IST" name="Bm" finished-at="2026-10-09T23:27:29 IST" duration-ms="2222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="sys2()[pri:0, instance:ecom.swaglabs.Add_to_cart.System_testcases_ATC@4b2bac3f]" started-at="2026-10-09T23:27:29 IST" name="sys2" finished-at="2026-10-09T23:27:29 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sys2 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Add_to_cart.System_testcases_ATC@4b2bac3f]" started-at="2026-10-09T23:27:29 IST" name="Am" finished-at="2026-10-09T23:27:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Ac()[pri:0, instance:ecom.swaglabs.Add_to_cart.System_testcases_ATC@4b2bac3f]" started-at="2026-10-09T23:27:29 IST" name="Ac" finished-at="2026-10-09T23:27:30 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ac -->
+      </class> <!-- ecom.swaglabs.Add_to_cart.System_testcases_ATC -->
+      <class name="ecom.swaglabs.Product.System_testcases_Product">
+        <test-method is-config="true" signature="Bc(java.lang.String)[pri:0, instance:ecom.swaglabs.Product.System_testcases_Product@40005471]" started-at="2026-10-09T23:26:53 IST" name="Bc" finished-at="2026-10-09T23:26:54 IST" duration-ms="786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bc -->
+        <test-method is-config="true" signature="Bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Product.System_testcases_Product@40005471]" started-at="2026-10-09T23:26:54 IST" name="Bm" finished-at="2026-10-09T23:26:57 IST" duration-ms="2883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="sys1()[pri:0, instance:ecom.swaglabs.Product.System_testcases_Product@40005471]" started-at="2026-10-09T23:26:57 IST" name="sys1" finished-at="2026-10-09T23:26:58 IST" duration-ms="1048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sys1 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Product.System_testcases_Product@40005471]" started-at="2026-10-09T23:26:58 IST" name="Am" finished-at="2026-10-09T23:26:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Product.System_testcases_Product@40005471]" started-at="2026-10-09T23:26:58 IST" name="Bm" finished-at="2026-10-09T23:27:00 IST" duration-ms="2211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="sys2()[pri:0, instance:ecom.swaglabs.Product.System_testcases_Product@40005471]" started-at="2026-10-09T23:27:00 IST" name="sys2" finished-at="2026-10-09T23:27:10 IST" duration-ms="9752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sys2 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Product.System_testcases_Product@40005471]" started-at="2026-10-09T23:27:10 IST" name="Am" finished-at="2026-10-09T23:27:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Ac()[pri:0, instance:ecom.swaglabs.Product.System_testcases_Product@40005471]" started-at="2026-10-09T23:27:10 IST" name="Ac" finished-at="2026-10-09T23:27:10 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ac -->
+      </class> <!-- ecom.swaglabs.Product.System_testcases_Product -->
+      <class name="ecom.swaglabs.Add_to_cart.Negative_testcases_ATC">
+        <test-method is-config="true" signature="Bc(java.lang.String)[pri:0, instance:ecom.swaglabs.Add_to_cart.Negative_testcases_ATC@79079097]" started-at="2026-10-09T23:26:43 IST" name="Bc" finished-at="2026-10-09T23:26:44 IST" duration-ms="775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bc -->
+        <test-method is-config="true" signature="Bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Add_to_cart.Negative_testcases_ATC@79079097]" started-at="2026-10-09T23:26:44 IST" name="Bm" finished-at="2026-10-09T23:26:47 IST" duration-ms="3108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="neg1()[pri:0, instance:ecom.swaglabs.Add_to_cart.Negative_testcases_ATC@79079097]" started-at="2026-10-09T23:26:47 IST" name="neg1" finished-at="2026-10-09T23:26:47 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- neg1 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Add_to_cart.Negative_testcases_ATC@79079097]" started-at="2026-10-09T23:26:47 IST" name="Am" finished-at="2026-10-09T23:26:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Bm(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.swaglabs.Add_to_cart.Negative_testcases_ATC@79079097]" started-at="2026-10-09T23:26:47 IST" name="Bm" finished-at="2026-10-09T23:26:49 IST" duration-ms="2216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="neg2()[pri:0, instance:ecom.swaglabs.Add_to_cart.Negative_testcases_ATC@79079097]" started-at="2026-10-09T23:26:49 IST" name="neg2" finished-at="2026-10-09T23:26:49 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- neg2 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Add_to_cart.Negative_testcases_ATC@79079097]" started-at="2026-10-09T23:26:49 IST" name="Am" finished-at="2026-10-09T23:26:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Ac()[pri:0, instance:ecom.swaglabs.Add_to_cart.Negative_testcases_ATC@79079097]" started-at="2026-10-09T23:26:49 IST" name="Ac" finished-at="2026-10-09T23:26:50 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ac -->
+      </class> <!-- ecom.swaglabs.Add_to_cart.Negative_testcases_ATC -->
+      <class name="ecom.swaglabs.Login.Negative_testcases_Login">
+        <test-method is-config="true" signature="Bc(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" started-at="2026-10-09T23:26:26 IST" name="Bc" finished-at="2026-10-09T23:26:27 IST" duration-ms="662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bc -->
+        <test-method is-config="true" signature="Bm(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" started-at="2026-10-09T23:26:27 IST" name="Bm" finished-at="2026-10-09T23:26:28 IST" duration-ms="632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="fun_neg_1()[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" started-at="2026-10-09T23:26:28 IST" name="fun_neg_1" finished-at="2026-10-09T23:26:31 IST" duration-ms="3204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun_neg_1 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" started-at="2026-10-09T23:26:31 IST" name="Am" finished-at="2026-10-09T23:26:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Bm(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" started-at="2026-10-09T23:26:31 IST" name="Bm" finished-at="2026-10-09T23:26:31 IST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="fun_neg_2()[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" started-at="2026-10-09T23:26:31 IST" name="fun_neg_2" finished-at="2026-10-09T23:26:34 IST" duration-ms="3138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun_neg_2 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" started-at="2026-10-09T23:26:34 IST" name="Am" finished-at="2026-10-09T23:26:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Bm(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" started-at="2026-10-09T23:26:34 IST" name="Bm" finished-at="2026-10-09T23:26:34 IST" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="fun_neg_3()[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" started-at="2026-10-09T23:26:34 IST" name="fun_neg_3" finished-at="2026-10-09T23:26:34 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun_neg_3 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" started-at="2026-10-09T23:26:34 IST" name="Am" finished-at="2026-10-09T23:26:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Bm(java.lang.String)[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" started-at="2026-10-09T23:26:34 IST" name="Bm" finished-at="2026-10-09T23:26:34 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bm -->
+        <test-method signature="fun_neg_4()[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" started-at="2026-10-09T23:26:34 IST" name="fun_neg_4" finished-at="2026-10-09T23:26:36 IST" duration-ms="2198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun_neg_4 -->
+        <test-method is-config="true" signature="Am()[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" started-at="2026-10-09T23:26:36 IST" name="Am" finished-at="2026-10-09T23:26:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Am -->
+        <test-method is-config="true" signature="Ac()[pri:0, instance:ecom.swaglabs.Login.Negative_testcases_Login@bcec361]" started-at="2026-10-09T23:26:36 IST" name="Ac" finished-at="2026-10-09T23:26:36 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ac -->
+      </class> <!-- ecom.swaglabs.Login.Negative_testcases_Login -->
+    </test> <!-- Combined Tests -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

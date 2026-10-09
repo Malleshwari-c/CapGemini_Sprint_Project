@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="ecom.swaglabs.Add_to_cart.System_testcases_ATC">
+        <methods>
+          <include name="Bc"/>
+          <include name="Bs"/>
+          <include name="Ac"/>
+          <include name="Bt"/>
+          <include name="As"/>
+          <include name="At"/>
+          <include name="Bm"/>
+          <include name="Am"/>
+          <include name="sys2"/>
+        </methods>
+      </class> <!-- ecom.swaglabs.Add_to_cart.System_testcases_ATC -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
