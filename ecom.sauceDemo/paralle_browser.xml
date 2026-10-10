@@ -17,9 +17,9 @@
             </run>
         </groups>
         <packages>
-            <package name="login"/>
-            <package name="Product"/>
-            <package name="Add_to_cart"/>
+            <package name="ecom.swaglabs.Add_to_cart"/>
+            <package name="ecom.swaglabs.Product"/>
+            <package name="ecom.swaglabs.login"/>
         </packages>
     </test>
 
@@ -35,9 +35,9 @@
             </run>
         </groups>
         <packages>
-            <package name="login"/>
-            <package name="Product"/>
-            <package name="Add_to_cart"/>
+            <package name="ecom.swaglabs.Add_to_cart"/>
+            <package name="ecom.swaglabs.Product"/>
+            <package name="ecom.swaglabs.login"/>
         </packages>
     </test>
 
@@ -53,9 +53,9 @@
             </run>
         </groups>
         <packages>
-            <package name="login"/>
-            <package name="Product"/>
-            <package name="Add_to_cart"/>
+            <package name="ecom.swaglabs.Add_to_cart"/>
+            <package name="ecom.swaglabs.Product"/>
+            <package name="ecom.swaglabs.login"/>
         </packages>
     </test>
 
