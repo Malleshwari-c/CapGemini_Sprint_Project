@@ -7,56 +7,80 @@
 
     <test name="Chrome Tests">
         <parameter name="BROWSER" value="chrome"/>
-        <parameter name="URL" value="https://www.saucedemo.com/"/>
-        <parameter name="USERNAME" value="standard_user"/>
-        <parameter name="PASSWORD" value="secret_sauce"/>
-
         <groups>
             <run>
+                <include name="negative"/>
+                <include name="integration"/>
+                <include name="functional"/>
+                <include name="system"/>
                 <include name="smoke"/>
             </run>
         </groups>
-        <packages>
-            <package name="ecom.swaglabs.Add_to_cart"/>
-            <package name="ecom.swaglabs.Product"/>
-            <package name="ecom.swaglabs.login"/>
-        </packages>
+        <classes>
+            <class name="ecom.swaglabs.Add_to_cart.System_testcases_ATC"/>
+            <class name="ecom.swaglabs.Product.System_testcases_Product"/>
+            <class name="ecom.swaglabs.Login.Smoke_testcases_Login"/>
+            <class name="ecom.swaglabs.Add_to_cart.Functional_testcases_ATC"/>
+            <class name="ecom.swaglabs.Product.Integartion_testcases_Product"/>
+            <class name="ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC"/>
+            <class name="ecom.swaglabs.Product.Functionl_testcases_Product"/>
+            <class name="ecom.swaglabs.Add_to_cart.Smoke_testcases_ATC"/>
+            <class name="ecom.swaglabs.Login.Functional_testcases_Login"/>
+            <class name="ecom.swaglabs.Add_to_cart.Negative_testcases_ATC"/>
+            <class name="ecom.swaglabs.Login.Negative_testcases_Login"/>
+        </classes>
     </test>
 
     <test name="Firefox Tests">
         <parameter name="BROWSER" value="firefox"/>
-        <parameter name="URL" value="https://www.saucedemo.com/"/>
-        <parameter name="USERNAME" value="standard_user"/>
-        <parameter name="PASSWORD" value="secret_sauce"/>
-
         <groups>
             <run>
+                <include name="negative"/>
+                <include name="integration"/>
+                <include name="functional"/>
+                <include name="system"/>
                 <include name="smoke"/>
             </run>
         </groups>
-        <packages>
-            <package name="ecom.swaglabs.Add_to_cart"/>
-            <package name="ecom.swaglabs.Product"/>
-            <package name="ecom.swaglabs.login"/>
-        </packages>
+        <classes>
+            <class name="ecom.swaglabs.Add_to_cart.System_testcases_ATC"/>
+            <class name="ecom.swaglabs.Product.System_testcases_Product"/>
+            <class name="ecom.swaglabs.Login.Smoke_testcases_Login"/>
+            <class name="ecom.swaglabs.Add_to_cart.Functional_testcases_ATC"/>
+            <class name="ecom.swaglabs.Product.Integartion_testcases_Product"/>
+            <class name="ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC"/>
+            <class name="ecom.swaglabs.Product.Functionl_testcases_Product"/>
+            <class name="ecom.swaglabs.Add_to_cart.Smoke_testcases_ATC"/>
+            <class name="ecom.swaglabs.Login.Functional_testcases_Login"/>
+            <class name="ecom.swaglabs.Add_to_cart.Negative_testcases_ATC"/>
+            <class name="ecom.swaglabs.Login.Negative_testcases_Login"/>
+        </classes>
     </test>
 
     <test name="Edge Tests">
         <parameter name="BROWSER" value="edge"/>
-        <parameter name="URL" value="https://www.saucedemo.com/"/>
-        <parameter name="USERNAME" value="standard_user"/>
-        <parameter name="PASSWORD" value="secret_sauce"/>
-
         <groups>
             <run>
+                <include name="negative"/>
+                <include name="integration"/>
+                <include name="functional"/>
+                <include name="system"/>
                 <include name="smoke"/>
             </run>
         </groups>
-        <packages>
-            <package name="ecom.swaglabs.Add_to_cart"/>
-            <package name="ecom.swaglabs.Product"/>
-            <package name="ecom.swaglabs.login"/>
-        </packages>
+        <classes>
+            <class name="ecom.swaglabs.Add_to_cart.System_testcases_ATC"/>
+            <class name="ecom.swaglabs.Product.System_testcases_Product"/>
+            <class name="ecom.swaglabs.Login.Smoke_testcases_Login"/>
+            <class name="ecom.swaglabs.Add_to_cart.Functional_testcases_ATC"/>
+            <class name="ecom.swaglabs.Product.Integartion_testcases_Product"/>
+            <class name="ecom.swaglabs.Add_to_cart.Integartion_testcases_ATC"/>
+            <class name="ecom.swaglabs.Product.Functionl_testcases_Product"/>
+            <class name="ecom.swaglabs.Add_to_cart.Smoke_testcases_ATC"/>
+            <class name="ecom.swaglabs.Login.Functional_testcases_Login"/>
+            <class name="ecom.swaglabs.Add_to_cart.Negative_testcases_ATC"/>
+            <class name="ecom.swaglabs.Login.Negative_testcases_Login"/>
+        </classes>
     </test>
 
 </suite>
