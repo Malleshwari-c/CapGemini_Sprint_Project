@@ -2,8 +2,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="Cross Browser Suite">
-
-    <!-- Chrome Execution -->
     <test name="Chrome Tests">
         <parameter name="BROWSER" value="chrome"/>
 
